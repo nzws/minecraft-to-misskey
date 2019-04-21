@@ -16,10 +16,10 @@ function run() {
         }
         data.lastunixtime = response.timestamp;
 
-        if (data.lastservertime > response.servertime) { // 日が明けた
-            postToMisskey(`サーバ時刻 0時 をお知らせします。`);
-        }
-        data.lastservertime = response.servertime;
+        // if (data.lastservertime > response.servertime) { // 日が明けた
+        //     postToMisskey(`サーバ時刻 0時 をお知らせします。`);
+        // }
+        // data.lastservertime = response.servertime;
 
         if (response.updates) {
             response.updates.forEach(update => {
