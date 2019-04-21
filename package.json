@@ -1,0 +1,15 @@
+{
+  "name": "minecraft-to-misskey",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/yuzulabo/minecraft-to-misskey.git",
+  "author": "nzws <github@nzws.me>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
